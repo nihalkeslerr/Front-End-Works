@@ -100,6 +100,10 @@ aside {
 
     font-size: 13px;
 }
+.link {
+    color: #dd0a00;
+    text-decoration: none;
+}
 .back {
     background-color: white;
 }
@@ -269,6 +273,55 @@ a.lia:hover {
     color: #0071ff !important;
 }
 
+thead th {
+    font-size: 14px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 22px;
+    text-align: left;
+}
+
+table.table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+tr {
+    border-top: 1px solid #d2d2d2;
+}
+thead tr:first-child {
+    border-top: none;
+}
+th, td {
+    padding: 2% 0%;
+    width: 25%;
+}
+table tr span {
+    line-height: 20px;
+    font-size: 13px;
+}
+
+ td span:nth-child(3){
+    color: #b30800;
+}
+.divtable {
+    padding: 23px;
+}
+
+.plan {
+    overflow: hidden;
+    margin-bottom: 19px;
+}
+.plan div {
+    width: 50%;
+    float: left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+.plan div h3 {
+    margin-left: 25px;
+}
 /* @media screen and (max-width:1100px) {
     .container {
         width: 100%;  
