@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin+Sketch:wght@700&family=Lobster&family=Magra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+background-color: black;
+}
+.menu{
+    background: url(../ASSETS/images/bg.jpg) center 0 no-repeat;
+}
+
+.container{
+    color: white;
+    margin: 0 auto;
+    width: 69%;
+}
+header{
+    background: url(../ASSETS/images/header.jpg) right 0 no-repeat;
+    height: max-content;
+
+}
+.section1{
+    background: url(../ASSETS/images/slider-bg.png) center 0 no-repeat;
+   height: max-content;
+}
+.section2 {
+    /* width: max-content; */
+    display: inline-flex;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 91%;
+    margin: 5% 4.5% auto;
+}
+
+header div img {
+    margin: 17px 50px 29px;
+}
+
+.navbar ul {
+    height: 49px;
+    background-image: url(../ASSETS/menu-bg.png);
+    font-family: 'Cabin Sketch', cursive;
+    text-transform: uppercase;
+    /* margin: 0 auto; */
+    text-align: center;
+    padding-bottom: 6%;
+}
+
+.navbar ul li {
+    text-align: center;
+    list-style: none;
+    padding: 15px 15px;
+    background: url(../ASSETS/menu-divider-bg.png) no-repeat right;
+    display: inline-block;
+}
+
+.navbar ul a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 36px;
+}
+.navbar ul li:hover  {
+    background: url(../ASSETS/menu-hover-bg.png) repeat-x;
+    cursor: pointer;
+    
+}
+.navbar ul li:hover a  {
+    color: white;
+    
+}
+
+article {
+    padding: 20px;
+    float: left;
+    width: 31%;
+    height: max-content;
+    border-radius: 10px;
+}
+
+aside {
+    padding: 20px;
+    float: right;
+    width: 70%;
+    height: max-content;
+
+
+    font-size: 13px;
+}
+.back {
+    background-color: white;
+}
+.gallery {
+    color: black;
+    background: url(../ASSETS/images/block-1-shadow.png) no-repeat;
+}
+.gallery p {
+    font-size: 14px;
+    margin: 0px 25px;
+    line-height: 21px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.head h1 {
+    font-size: 40px;
+    font-family: 'Cabin Sketch', cursive;
+    margin-bottom: 18px;
+}
+
+
+.head p {
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    line-height: 25px;
+    color: white;
+}
+.head {
+    margin: 19px 0px 35px 36px;
+}
+article h1:first-child{
+    font-size: 40px;
+}
+
+article h1 {
+    font-size: 40px;
+    font-family: 'Cabin Sketch';
+    margin-top: 40px;
+}
+
+article h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 18px;
+    margin: 16px 0px;
+    line-height: 25px;
+}
+article p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #838180;
+}
+
+article h2 {
+    font-size: 30px;
+    font-family: 'Cabin Sketch';
+    color: #dd0a00;
+    margin-top: 24px;
+}
+
+.gallery div.box {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 10px -7px 10px 22px;
+}
+.gallery div.box img {
+    border: 1px solid #fff;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 0px 3px 1px #cbcbcb;
+}
+
+.gallery h1 {
+    font-size: 40px;
+    font-family: 'Cabin Sketch';
+    padding-top: 20px;
+    margin-left: 23px;
+    margin-bottom: 14px;
+}
+
+.box p {
+    font-size: 16px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    line-height: 25px;
+    margin: 10px 10px;
+}
+
+.fullgallery {
+    background: #80808026;
+    text-align: center;
+    padding: 20px;
+    
+}
+.fullgallery a {
+    color: #0072ff;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Cabin Sketch';
+}
+.fullgallery a:hover {
+    color: #b30800;
+}
+
+footer {
+    text-align: center;
+    margin-top: 16px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #838180;
+    line-height: 22px;
+}
+
+footer p a:first-child {
+    color: rgb(85,26,139);
+    text-decoration: none;
+}
+
+footer p a:last-child {
+    color: rgb(221,10,0);
+    text-decoration: none;
+}
+footer p a:last-child:hover {
+    color: rgb(221,10,0);
+    text-decoration: none;
+}
+
+/* @media screen and (max-width:1100px) {
+    .container {
+        width: 100%;  
+        font-size: 5vmin;
+    }
+
+} */
