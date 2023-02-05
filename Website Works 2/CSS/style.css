@@ -14,7 +14,7 @@ background-color: black;
 .container{
     color: white;
     margin: 0 auto;
-    width: 69%;
+    width: 1000px;
 }
 header{
     background: url(../ASSETS/images/header.jpg) right 0 no-repeat;
@@ -23,7 +23,7 @@ header{
 }
 .section1{
     background: url(../ASSETS/images/slider-bg.png) center 0 no-repeat;
-   height: max-content;
+    background-size: 100%;
 }
 .section2 {
     /* width: max-content; */
@@ -53,7 +53,7 @@ header div img {
 .navbar ul {
     height: 49px;
     background-image: url(../ASSETS/menu-bg.png);
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Cabin Sketch';
     text-transform: uppercase;
     /* margin: 0 auto; */
     text-align: center;
@@ -110,6 +110,7 @@ aside {
 .gallery {
     color: black;
     background: url(../ASSETS/images/block-1-shadow.png) no-repeat;
+    background-size: 100%;
 }
 .gallery p {
     font-size: 14px;
@@ -119,7 +120,7 @@ aside {
 }
 .head h1 {
     font-size: 40px;
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Cabin Sketch';
     margin-bottom: 18px;
 }
 
@@ -168,6 +169,7 @@ article h2 {
     display: inline-flex;
     flex-direction: column;
     margin: 10px -7px 10px 22px;
+    width: 45%;
 }
 .gallery div.box img {
     border: 1px solid #fff;
@@ -322,6 +324,79 @@ table tr span {
 .plan div h3 {
     margin-left: 25px;
 }
+
+
+label {
+    font-size: 14px;
+    margin: 16px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+input {
+    box-shadow: 0px 0px 4px 1px #bfbfbf;
+    margin-bottom: 15px;
+    border: none;
+    height: 25px;
+    margin-left: 17px;
+    width: 55%;
+}
+textarea#message {
+    margin-left: 4px;
+    height: 500px;
+    box-shadow: 0px 0px 4px 1px #bfbfbf;
+    border: none;
+    width: 68%;
+    display: inline-table;
+    margin-bottom: 15px;
+}
+
+article p span {
+    display: block;
+}
+
+p.contact {
+    width: 604px;
+}
+
+.swiper-button-next:after,.swiper-button-prev:after{
+    content: none !important;
+    width: 100px;
+}
+.next {
+    /* background: url(../ASSETS/images/next.png) 0 bottom no-repeat; */
+    /* padding-right: 108px; */
+    position: absolute;
+    top: -16px;
+    right: 4px;
+    display: block;
+    width: 72px;
+    height: 72px;
+    background: url(../ASSETS/images/next.png) 0 bottom no-repeat;
+    z-index: 99;
+}
+
+.prev {
+    position: absolute;
+    top: -18px;
+    /* right: 4px; */
+    left: 20px;
+    display: block;
+    width: 72px;
+    height: 72px;
+    background: url(../ASSETS/images/prev.png) 0 top no-repeat;
+    z-index: 99;
+}
+
+.next:hover {
+    background: url(../ASSETS/images/next.png) 0 top no-repeat;
+}
+.prev:hover {
+    background: url(../ASSETS/images/prev.png) 0 bottom no-repeat;
+}
+.navbar ul a:hover{
+    color: black !important;
+}
+
 /* @media screen and (max-width:1100px) {
     .container {
         width: 100%;  

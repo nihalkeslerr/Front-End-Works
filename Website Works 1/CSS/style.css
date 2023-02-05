@@ -296,4 +296,7 @@ footer p {
     line-height: 21px;
     font-size: 12px;
 }
+img.picimg {
+    width: 100%;
+}
 
