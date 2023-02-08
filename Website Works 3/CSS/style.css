@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#e8e1d1;
+}
+.container{
+    background: url(../ASSETS/bg-body.jpg) center top repeat-x;
+}
+
+.back{
+    margin: 0 auto;
+    width: 70%;
+
+}
+header{
+    text-align: center;
+}
+.logo {
+    padding-top: 68px;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-flex;
+    margin-right: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid wheat; */
+    font-size: 14px;
+    line-height: 32px;
+    box-shadow: 1px 1px 3px 0px #857f72;
+}
+.navbar ul li a {
+    padding: 0px 11px;
+    color: #164773;
+    background-color: #f6efe5;
+    text-decoration: none;
+}
+
+
+.navbar ul li a:hover {
+    color: #f6efe5;
+    background: #154773;
+}
+
+.content {
+    background-color: #f6efe5;
+    padding: 3px 20px;
+    border: 1px solid #e0dacc;
+
+}
+.content p {
+    color: #7c6b4f;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+}
+
+.writer {
+    font-size: 16px !important;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif !important;
+}
+.content h1 {
+    color: #0d4d79;
+    margin-bottom: 28px;
+}
+
+.ct {
+    display: flex;
+    align-items: flex-start;
+}
+.ct img {
+    width: 50%;
+}
+.ct p {
+    margin-top: -4px;
+    margin-left: 21px;
+    text-align: justify;
+}
+.card {
+    /* border: 1px solid; */
+    width: 22%;
+    /* float: left; */
+    display: inline-grid;
+    margin-right: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.card h1 {
+    color: #0d4d79;
+    font-size: 20px;
+    text-shadow: 1px 1px white;
+}
+.card p {
+    color: #7c6b4f;
+    margin: 4px 0px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.card img {
+    width: 100%;
+}
+.cardcontent {
+    /* border: 1px solid; */
+    height: 276px;
+    background: #fef7ed;
+    box-shadow: 0px 0px 3px 1px #c2b9a7;
+    padding: 9px;
+}
+.familyimg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+a.link {
+    font-size: 12px;
+    text-decoration: none;
+    color: #a29c8e;
+    /* float: right; */
+    display: block;
+    bottom: 0;
+    padding: 7px;
+    position: absolute;
+    right: 0px;
+    /* text-align: right; */
+}
+
+footer {
+    background: url(../ASSETS/bg-footer.jpg);
+    padding: 8px;
+    margin-top: 5%;
+    text-align: center;
+    color: #988878;
+}
+footer a {
+    color: #988878;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}

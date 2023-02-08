@@ -109,11 +109,15 @@ section.wrapper p:first-child span {
 }
 
 section.wrapper .section1 div {
-    width: 33%;
+    width: 30%;
     display: inline-table;
-    margin-right: 1px;
+    margin-right: 3%;
     margin-top: 25px;
     margin-bottom: 25px;
+    
+}
+.pic img{
+    width: 100%;
 }
 
 section.wrapper .section1 div p {
