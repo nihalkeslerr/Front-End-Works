@@ -9,7 +9,7 @@ body{
 
 .back{
     margin: 0 auto;
-    width: 70%;
+    width: 1000px;
 
 }
 header{
@@ -33,6 +33,11 @@ header{
     color: #164773;
     background-color: #f6efe5;
     text-decoration: none;
+}
+section {
+    width: 1000px;
+    margin: 0 auto;
+    /* text-align: center; */
 }
 
 
@@ -58,6 +63,7 @@ header{
     font-size: 16px !important;
     font-weight: bold;
     font-family: "Times New Roman", Times, serif !important;
+    margin-bottom: 30px !important;
 }
 .content h1 {
     color: #0d4d79;
@@ -137,4 +143,136 @@ footer a {
 }
 footer a:hover {
     text-decoration: underline;
+}
+.content.section {
+    padding: 0px 0px;
+}
+
+.content.section h1 {
+    height: 77px;
+    font-size: 28px;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 28px;
+    margin-top: 28px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+.content.section ul {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 24px;
+}
+.content.section ul li {
+    list-style: none;
+    width: 30%;
+    display: inline-grid;
+    margin-right: 13px;
+    border-right: 1px solid #b7aea26e;
+    padding-right: 14px;
+    position: relative;
+    box-shadow: 0.5px 0px 0px #c7c7c7;
+    height: 100%;
+}
+.content.section img {
+    width: 100%;
+    box-shadow: 0px 0px 3px 1px #c5c5c5;
+}
+.content p {
+    color: #7c6b4f;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+}
+.content.section h4 {
+    color: #3e3524;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 0px;
+
+}
+.content.section ul li:last-child {
+    border-right: none;
+    box-shadow: none;
+}
+.content.section li a {
+    text-decoration: none;
+    background: url(../ASSETS/bg-readmore.gif) center no-repeat;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    line-height: 24px;
+    color: #69614a;
+    display: inline-grid;
+    align-items: center;
+}
+.content.section.tips li {
+    width: 45%;
+}
+
+.content.section.tips li:last-child img {
+    margin-top: -27px;
+}
+img.girl {
+    margin-bottom: 14%;
+}
+p.firstp {
+    margin-bottom: 35%;
+}
+p.secp {
+    margin-bottom: 43%;
+}
+p.p2 {
+    margin: 39px 0px;
+}
+a.read1 {
+    margin-top: 40px;
+}
+a.read2 {
+    margin-top: 40px;
+}
+.content.section.tips img {
+    margin-bottom: 32px;
+}
+li.point p:before {
+    content: '．';
+    color: #7b6c4e;
+}
+.blog div {
+    display: inline-table;
+    padding-bottom: 28px;
+}
+
+
+.blogP {
+    width: 69%;
+    /* border-right: 1px solid #7b6c4e; */
+    padding-right: 34px;
+    background: url(../ASSETS/border-vertical.gif) repeat-y right top;
+}
+.list {
+    margin-left: 10px;
+    color: #7c6b4f;
+    position: absolute;
+    top: 341px;
+}
+.list h4 {
+    margin-left: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.list ul {
+    margin: 7px 0px 44px 0px;
+    font-size: 16px;
 }
