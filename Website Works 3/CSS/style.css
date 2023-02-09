@@ -276,3 +276,6 @@ li.point p:before {
     margin: 7px 0px 44px 0px;
     font-size: 16px;
 }
+.about p:last-child {
+    margin-bottom: 52px;
+}
